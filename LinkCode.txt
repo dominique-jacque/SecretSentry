@@ -1,0 +1,11 @@
+import secrets
+import string
+
+def generate_random_link(length=10):
+    characters = string.ascii_letters + string.digits
+    random_string = ''.join(secrets.choice(characters) for i in range(length))
+    return f"https://yourdomain.com/{random_string}"
+
+# Example usage:
+random_link = generate_random_link()
+print("Random Link:", random_link)
