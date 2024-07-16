@@ -1,0 +1,5 @@
+IAM Policies: Access Control Command used to deploy separate policies for access to the secrets and data citadel
+S3 Configuration:  Where we established 2 fortresse. one being our secrets vault fortified with strict polices, versioning and encryption. The other being our data citadel which is protected with encryption and controlled access
+Lambda: Soldier of security which develops lambda functions to handle secret operations like encryption, decryption and access control 
+API Gateway: Provided sentry Communication to forge endpoints to connect with lambda functions for secure secret management
+CloudWatch: Our surveillance ops that we use for monitoring and logging
