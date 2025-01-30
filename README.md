@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Secret Sharing App is a security-focused platform that enables users to share sensitive information by storing it in an Amazon S3 bucket. A generated link allows recipients to access the secret for a limited duration of three days. The application incorporates AWS security best practices to ensure confidentiality and controlled access.
+The SecretSentry Application is a security-focused platform that enables users to share sensitive information by storing it in an Amazon S3 bucket. A generated link allows recipients to access the secret for a limited duration of three days. The application incorporates AWS security best practices to ensure confidentiality and controlled access.
 
 ## Architecture
 
