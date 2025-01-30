@@ -1,0 +1,24 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::565335131180:role/LambdaS3AccessRole"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::ssapp-data/*"
+        },
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::565335131180:role/LambdaS3AccessRole"
+            },
+            "Action": [
+                "s3:PutObject",
+                "s3:DeleteObject"
+            ],
+            "Resource": "arn:aws:s3:::ssapp-data/*"
+        }
+    ]
+}
