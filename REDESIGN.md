@@ -1,5 +1,8 @@
 ### Roadmap for SecretSentry Reconstruction
 
+## Diagram
+![alt text](image.png)
+
 ## 1. Refine Project Requirements & Architecture Blueprint
 **Clarify Use Cases:**
 - Ensure we capture all the scenarios around secret sharing, such as how secrets are created, updated, and ultimately expired or revoked.
