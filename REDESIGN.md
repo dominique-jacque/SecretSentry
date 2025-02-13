@@ -1,7 +1,8 @@
 ### Roadmap for SecretSentry Reconstruction
 
 ## Diagram
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/a938d54c-2fe8-44d5-b513-ccd9e93167fc)
+
 
 ## 1. Refine Project Requirements & Architecture Blueprint
 **Clarify Use Cases:**
