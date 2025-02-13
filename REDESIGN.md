@@ -1,4 +1,4 @@
-### Roadmap for SecretSentry Reconstruction
+# Roadmap for SecretSentry Reconstruction
 
 ## Diagram
 ![image](https://github.com/user-attachments/assets/a938d54c-2fe8-44d5-b513-ccd9e93167fc)
